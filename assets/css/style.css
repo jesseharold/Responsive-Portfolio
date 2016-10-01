@@ -253,7 +253,7 @@ textarea {
 
 /* media queries */
 /* Desktop Width */
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) and (min-width: 769) {
   .maincontent {
     width: 358px;
   }
@@ -289,14 +289,36 @@ textarea {
     margin: 0 auto;
     display: block;
   }
-  
-
-
 
 }
 
 /* Tablet Width */
 @media screen and (max-width: 768px) {
+  .social {
+    float: none;
+    clear: both;
+    width: 586px;
+    margin: 0 0 40px 0;
+  }
+  .container {
+    margin: 0 auto;
+    width: 653px;
+  }
+  ul.nav li {
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  p {
+    font-size: 17px;
+    line-height: 185%;
+  }
+  div.ruler-sm {
+    width: 91%;
+  }
+  input[type=text] {
+    padding: 8px;
+    width: 566px;
+  }
 
 }
 
