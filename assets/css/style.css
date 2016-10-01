@@ -18,7 +18,13 @@ p {
   line-height: 200%;
   margin-bottom: 18px;
 }
-
+p a, p a:visited {
+  color: #111;
+  text-decoration: none;
+}
+p a:hover {
+  text-decoration: underline;
+}
 
 /*this div makes the footer sticky*/
 
