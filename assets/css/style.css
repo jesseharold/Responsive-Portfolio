@@ -26,22 +26,24 @@ p a:hover {
   text-decoration: underline;
 }
 
+
+/* The animation code */
+@keyframes hoverfade {
+    from {opacity: 1;}
+    to {opacity: .5;}
+}
+
 /*this div makes the footer sticky*/
-
-
 /* I got this code snippet from  Chris Coyier at CSS Tricks.com*/
-
 .pagewrapper {
   min-height: 100%;
   /* equal to footer height */
   margin-bottom: -92px;
 }
-
 .pagewrapper:after {
   content: "";
   display: block;
 }
-
 .pagewrapper:after {
   height: 92px;
 }
@@ -169,7 +171,9 @@ div.ruler-sm {
 /* adding hover effect to social icons*/
 
 .social li img:hover {
-  opacity: .5;
+  opacity: 1;
+  animation-name: hoverfade;
+  animation-duration: 0.8s;
 }
 
 img.portrait {
@@ -242,7 +246,9 @@ textarea {
 }
 
 .port-img-holder:hover .port-caption {
-  opacity: .5;
+  opacity: 1;
+  animation-name: hoverfade;
+  animation-duration: 0.8s;
 }
 
 .port-img-holder .port-caption {
