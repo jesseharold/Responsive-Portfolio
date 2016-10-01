@@ -351,7 +351,7 @@ textarea {
   ul.nav {
     clear: both;
     float: none;
-    padding: 24px 0;
+    padding: 20px 0 36px 0;
   }
   /* used percentages to try and keep the nav even at smaller widths as well */
   ul.nav li {
