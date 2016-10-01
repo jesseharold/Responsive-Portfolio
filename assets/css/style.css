@@ -340,8 +340,12 @@ textarea {
     float: none;
     padding: 24px 0;
   }
-  ul.nav li a {
-    margin: 0 52px;
+  /* used percentages to try and keep the nav even at smaller widths as well */
+  ul.nav li {
+    float: left;
+    width: 20%;
+    padding: 0 7%;
+    text-align: center;
   }
   .header h1 {
     width: 100%;
