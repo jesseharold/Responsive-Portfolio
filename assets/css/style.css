@@ -253,7 +253,7 @@ textarea {
 
 /* media queries */
 /* Desktop Width */
-@media screen and (max-width: 980px) and (min-width: 769) {
+@media screen and (max-width: 980px) {
   .maincontent {
     width: 358px;
   }
@@ -302,7 +302,10 @@ textarea {
   }
   .container {
     margin: 0 auto;
-    width: 653px;
+    width: 660px;
+  }
+  ul.nav {
+    margin-right: 3%;
   }
   ul.nav li {
     font-size: 16px;
@@ -311,6 +314,16 @@ textarea {
   p {
     font-size: 17px;
     line-height: 185%;
+  }
+
+  .maincontent {
+    width: 598px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  img.portrait {
+    width: 50%;
+    float: left;
   }
   div.ruler-sm {
     width: 91%;
