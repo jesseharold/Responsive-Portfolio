@@ -250,3 +250,19 @@ textarea {
   font-size: 20px;
   font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
+
+/* media queries */
+/* Desktop Width */
+@media screen and (max-width: 980px) {
+
+}
+
+/* Tablet Width */
+@media screen and (max-width: 768px) {
+
+}
+
+/* Phone Landscape Width */
+@media screen and (max-width: 640px) {
+  /* Make the position of the header `static` (the default positioning) */
+}
