@@ -171,7 +171,7 @@ div.ruler-sm {
 /* adding hover effect to social icons*/
 
 .social li img:hover {
-  opacity: 1;
+  opacity: .5;
   animation-name: hoverfade;
   animation-duration: 0.8s;
 }
@@ -246,7 +246,7 @@ textarea {
 }
 
 .port-img-holder:hover .port-caption {
-  opacity: 1;
+  opacity: .5;
   animation-name: hoverfade;
   animation-duration: 0.8s;
 }
