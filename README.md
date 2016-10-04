@@ -1,5 +1,7 @@
 # Responsive-Portfolio
 
-finished adding styles, fixed issue with 768 width - media query was broken
+UCLA Extension the Coding Boot Camp
+Week 2 homework, part 1
 
-Fixed css animations issue
+deployed to Heroku here:
+http://young-tundra-99924.herokuapp.com/
